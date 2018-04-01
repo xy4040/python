@@ -1,0 +1,8 @@
+py函数：
+	参数类型：
+		1、必选参数	def class(x):
+		2、默认参数	def class(x,y=10):
+		3、可变参数（使用*，例如：*args）def class(x,y=10,*args):
+		4、关键字参数（使用**kw关键字）	def class(x,y=10,*args,**kw):
+		5、命名关键字参数（可变参数）def class(x,y=10,*args,a,b,**kw):
+	参数定义的顺序：必选参数、默认参数、可变参数、命名关键字参数、关键字参数
